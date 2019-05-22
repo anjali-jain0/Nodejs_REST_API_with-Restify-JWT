@@ -1,0 +1,25 @@
+{
+  "name": "restify_jwt_api",
+  "version": "1.0.0",
+  "description": "API using restify and jwt token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.10",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.3.2",
+    "restify-errors": "^8.0.0",
+    "restify-jwt-community": "^1.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
